@@ -1,0 +1,19 @@
+.css-7kdxxp {
+  color: rgba(238, 238, 238, 60) !important;
+  background-color: #04041A !important;
+}
+.css-1o7jk8u {
+  background: #04041A !important;
+}
+
+/* Deactivate border lines */
+
+.css-v562hm {
+  border: none !important;
+}
+
+.css-18z1i7v {
+  border-bottom: none !important;
+}
+
+/* Deactivate the build with chainlit */
