@@ -1,5 +1,5 @@
 .css-7kdxxp {
-  color: rgba(238, 238, 238, 60) !important;
+  color: rgba(238, 238, 238, 0.6) !important;
   background-color: #04041A !important;
 }
 .css-1o7jk8u {
@@ -16,4 +16,17 @@
   border-bottom: none !important;
 }
 
-/* Deactivate the build with chainlit */
+/* Deactivate the "built with chainlit" message */
+
+.MuiStack-root.watermark {
+  visibility: hidden !important;
+}
+
+.MuiStack-root.watermark::before {
+  content: "AI chatbot can make mistakes. Consider checking important information.";
+  font-size: medium;
+  margin-top: 0.5rem;
+  color: rgba(238, 238, 238, 0.4) !important;
+  visibility: visible !important;
+  /* Other CSS styles for the pseudo-element */
+}
