@@ -12,4 +12,5 @@ You can test it with
 ```
 chainlit hello
 ```
-
+[
+[](https://github.com/felipearosr/chainlit-dark-theme/blob/main/github_assets/sc.png)
