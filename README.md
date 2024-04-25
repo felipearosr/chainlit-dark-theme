@@ -1,6 +1,6 @@
 # Chainlit Dark Theme
 
-> IMPORTANT
+> [!IMPORTANT]
 > This won't work in production or in your build.
 
 You need to update the `css.` names in the css file to your own. This was made only for screenshots for another project. 
